@@ -20,7 +20,7 @@ describe("Books names test suite", () => {
   });
 
   it("Single element array", () => {
-    expect(sorting.sortByName(['Одна книга'])).toEqual(['Одна книга']);
+    expect(sorting.sortByName(['Толькл одна книга'])).toEqual(['Только одна книга']);
   });
 
   it("Case insensitive sorting", () => {
